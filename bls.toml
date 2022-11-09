@@ -1,4 +1,4 @@
-name = "template_name"
+name = "zeroth_maroon_quokka-24b6"
 version = "1.0.0"
 
 [deployment]
@@ -7,10 +7,10 @@ nodes = 1
 
 [build]
 dir = "build"
-entry = "template_name-debug.wasm"
+entry = "zeroth_maroon_quokka-24b6-debug.wasm"
 command = "npm run build:debug"
 
 [build_release]
 dir = "build"
-entry = "template_name-release.wasm"
+entry = "zeroth_maroon_quokka-24b6-release.wasm"
 command = "npm run build:release"
